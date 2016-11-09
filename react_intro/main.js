@@ -4,7 +4,7 @@
 //
 var actualDomNode = document.getElementById('app')
 //
-// ReactDOM.render(react, actualDomNode)
+ReactDOM.render(React, actualDomNode);
 
 var NinjaComponent = React.createClass({
   render: function(){
